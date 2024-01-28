@@ -25,15 +25,15 @@ Zero Trust ensures secure User Authentication and Password Management. It incorp
 
 To run this Flask application locally, follow these steps:
 
-1. Clone the repository:git clone https://github.com/khushimadan/ZeroTrustPassword.git
+1. Clone the repository : git clone https://github.com/khushimadan/ZeroTrustPassword.git
 
-2. Change into the project directory:cd ZeroTrustPassword
+2. Change into the project directory : cd ZeroTrustPassword
 
-3. Install the required dependencies: pip install -r Requirements.txt
+3. Install the required dependencies : pip install -r Requirements.txt
 
-4. Set up the MySQL database. Ensure you have a MySQL server running and update the db_config dictionary in the App.py file with your database credentials
+4. Set up the MySQL database : Ensure you have a MySQL server running and update the db_config dictionary in the App.py file with your database credentials
 
-5. Run the Flask application: python App.py
+5. Run the Flask application : python App.py
 
 # Usage
 
@@ -69,19 +69,20 @@ The application provides several routes for user registration, login and passwor
 
 /recommend_login: Password recommendation for login
 
-Features
+# Features
 
-User Authentication: Secure user registration and login.
+User Authentication : Secure user registration and login
 
-One-Time Password (OTP): OTP generation and verification for additional security.
+One-Time Password (OTP) : OTP generation and verification for additional security
 
-Password Strength Checker: Evaluate the strength of a password based on various criteria.
+Password Strength Checker : Evaluate the strength of a password based on various criteria
 
-Password Recommendation: Generate recommended passwords based on user information.
+Password Recommendation : Generate recommended passwords based on user information
 
-MySQL Database: Store user data securely in a MySQL database.
+Estimated Time to Crack Password: Provides the worst case time complexity of a hacker to hack the entered password by the user
 
-Estimated Time to Crack Password: Provides the worst case time complexity of a hacker to hack the entered password by the user.
+MySQL Database: Store users' data securely in MySQL database
+
 
 # Dependencies
 
@@ -95,9 +96,9 @@ Random
 
 Math
 
-Configuration
+# Configuration
 
-Update the db_config dictionary in the App.py file with your MySQL database credentials.
+Update the db_config dictionary in the App.py file with your MySQL database credentials
 
 
 
