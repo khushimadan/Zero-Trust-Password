@@ -1,6 +1,6 @@
 # ZeroTrustPassword
 
-Link to ppt: https://www.canva.com/design/DAFh9MtCgbc/skYMI7J7ry36VOV4BMoaLA/view?utm_content=DAFh9MtCgbc&utm_campaign=designshare&utm_medium=link&utm_source=editor
+Project PPT : https://www.canva.com/design/DAFh9MtCgbc/skYMI7J7ry36VOV4BMoaLA/view?utm_content=DAFh9MtCgbc&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 # Overview
 
