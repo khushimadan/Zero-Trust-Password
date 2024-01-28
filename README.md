@@ -6,7 +6,7 @@ Project PPT : https://www.canva.com/design/DAFh9MtCgbc/skYMI7J7ry36VOV4BMoaLA/vi
 People often use their name, parents' name and important dates such as D.O.B,Anniversary etc. in their passwords which make them weak and easy to crack by hackers.
 ZeroTrust is a web application built with Flask that focuses on checking the strength of password entered by a user. It shows a password as Weak if it contains personal information of the user and it shows a password as Strong if it doesn't contain their personal information in any form. 
 
-Zero Trust ensures secure User Authentication and Password Management. It incorporates one-time Password (OTP) verification for registered users, password strength checking and personalized password recommendations for users. It also shows an estimated time to crack the entered password by a hacker using Brute Force method.
+Zero Trust ensures secure User Authentication and Password Management. It incorporates one-time password (OTP) verification for registered users, password strength checking and personalized password recommendations for users. It also shows an estimated time to crack the entered password by a hacker using Brute Force method.
 
 # Table of Contents
 
