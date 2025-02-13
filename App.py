@@ -13,7 +13,7 @@ app.secret_key = os.urandom(16)
 db_config = {
     'host': 'localhost',
     'user': 'root',
-    'password': '1234',
+    'password': your_password,
     'database': 'zerotrust'
 }
 
@@ -267,7 +267,7 @@ def otp_generate(email):
     global global_otp
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
-    password = "cnnn ktbh hnwe zoys"
+    password = your_password
     server.login("bytebendersztp@gmail.com", password)
     OTP = random.randint(100000, 999999)
     body = "Dear User," + "\n" + "\n" + "Your One Time Password (OTP) is " + str(OTP) + "."  # generating a message
